@@ -162,6 +162,7 @@ def graph_it(percept,data,epoch):
     plt.plot(x_val, y_val)
     plt.pause(0.01)
 
-for i, save in enumerate(PerA.save_epoch['save']):
+for i in range(0,len(PerA.save_epoch['save']),4):
+    save = PerA.save_epoch['save'][i]
     graph_it(save,alldots,i)
 plt.show()
