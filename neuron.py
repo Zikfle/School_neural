@@ -8,7 +8,6 @@
 import matplotlib
 
 import matplotlib.pyplot as plt
-matplotlib.use('TkAgg')
 import random
 import pandas as pd
 import math
